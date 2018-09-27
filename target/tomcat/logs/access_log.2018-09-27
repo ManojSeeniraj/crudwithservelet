@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:36:50 +0530] "GET / HTTP/1.1" 200 4142 http-bio-9090-exec-1 461
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:36:52 +0530] "GET /adminLogin.jsp HTTP/1.1" 200 3860 http-bio-9090-exec-3 77
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:37:08 +0530] "POST /CrudOperations?action=validate HTTP/1.1" 200 222 http-bio-9090-exec-4 154
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:37:10 +0530] "GET /databaseServelet HTTP/1.1" 200 9730 http-bio-9090-exec-6 236
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:37:21 +0530] "GET /CrudOperations?action=list HTTP/1.1" 200 5523 http-bio-9090-exec-7 167
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:37:41 +0530] "POST /UserServelet?action=alredyexists HTTP/1.1" 200 3273 http-bio-9090-exec-9 69
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:37:45 +0530] "GET /UserProfile.jsp HTTP/1.1" 200 4577 http-bio-9090-exec-9 49
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:38:30 +0530] "GET /adminLogin.jsp HTTP/1.1" 200 3860 http-bio-9090-exec-9 0
+0:0:0:0:0:0:0:1 - - [27/Sep/2018:18:38:45 +0530] "GET /adminRegistration.jsp HTTP/1.1" 200 2909 http-bio-9090-exec-9 76

@@ -1,0 +1,12 @@
+com\webapp2\UserDetailController.class
+com\webapp2\databaseGetter.class
+com\webapp2\UserDetails.class
+com\webapp2\UserProfileDatabase.class
+com\webapp2\User2.class
+com\webapp2\UserServelet.class
+com\webapp2\CrudOperations.class
+com\webapp2\MysqlConnection.class
+com\webapp2\Contacts.class
+com\webapp2\databaseServelet.class
+com\webapp2\Inbox.class
+com\webapp2\UserProfileGetter.class
