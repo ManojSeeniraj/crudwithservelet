@@ -1,6 +1,5 @@
 package com.webapp2;
 
-
 /**
  * Contact
  */
@@ -13,7 +12,7 @@ public class Contacts {
     Contacts() {
     }
 
-    Contacts(String emailid, String phone) {
+    public Contacts(String emailid, String phone) {
         
         this.emailid = emailid;
         this.phone = phone;

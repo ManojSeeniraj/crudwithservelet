@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.PreparedStatement;
 import com.mysql.jdbc.Statement;
+import com.webapp2.UserProfileGetter;
 
 /**
  * UserProfileDatabase

@@ -1,5 +1,4 @@
 package com.webapp2;
-
 /**
  * InnerInbox
  */
@@ -20,7 +19,7 @@ public class Inbox {
     Inbox() {
     }
 
-    Inbox(String emailid, String date, String from, String to, String subject, String message) {
+    public Inbox(String emailid, String date, String from, String to, String subject, String message) {
         this.emailid = emailid;
         this.date = date;
         this.from = from;

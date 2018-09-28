@@ -111,7 +111,23 @@
 </style>
 
 <body>
-       <a  style="padding-left: 1120px;"   href="/CrudOperations?action=list"><button type="submit" class="admin">Active Users</button></a>
+        <div class="w3-top">
+                <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+                  <a href="#home" class="w3-bar-item w3-button">Welcome ${message}</a>
+                  <!-- Right-sided navbar links. Hide them on small screens -->
+                  <div class="w3-right w3-hide-small">
+                    
+                    <a href="../email/gmailLogin.jsp" class="w3-bar-item w3-button">EmailApp</a>
+                    <a  href="/CrudOperations?action=list" class="w3-bar-item w3-button">Active Users</a>
+                    
+              
+                  </div>
+                </div>
+              </div>
+
+              <br>
+              <br>
+       <!-- <a  style="padding-left: 1120px;"   href="/CrudOperations?action=list"><button type="submit" class="admin">Active Users</button></a> -->
 
 
 

@@ -10,6 +10,8 @@ import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
+import com.webapp2.UserProfileGetter;
+
 import org.omg.CORBA.Request;
 
 @WebServlet("/CrudOperations")

@@ -1,15 +1,20 @@
 package com.webapp2;
 
+import java.util.ArrayList;
+
 /**
  * UserDetails
  */
 
 import java.util.List;
 
+import com.webapp2.Contacts;
+import com.webapp2.Inbox;
+
 /**
  * UserDetail
  */
-public class UserDetails {
+class UserDetails {
 
     private String emailid;
     private List<Inbox> inboxes;
@@ -24,7 +29,10 @@ public class UserDetails {
         this.contacts = contacts;
     }
 
-    /**
+    public UserDetails(String value, ArrayList<Inbox> inbox, ArrayList<Contacts> contacts2) {
+	}
+
+	/**
      * @return the userid
      */
     /**
